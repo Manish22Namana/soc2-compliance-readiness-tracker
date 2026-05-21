@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+frontend/dist/
+backend/dist/
+
+# Environment — NEVER commit real keys
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded evidence files
+backend/uploads/
+
+# Claude Code local settings (dev-machine specific)
+.claude/settings.local.json
+
+# macOS
+.DS_Store
