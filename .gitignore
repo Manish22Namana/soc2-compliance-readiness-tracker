@@ -22,5 +22,8 @@ backend/uploads/
 # Claude Code local settings (dev-machine specific)
 .claude/settings.local.json
 
+# One-off utility scripts
+screenshot.mjs
+
 # macOS
 .DS_Store

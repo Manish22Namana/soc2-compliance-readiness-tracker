@@ -22,18 +22,38 @@ Built with React 19, Node.js/Express, SQLite, and Claude AI for an in-app compli
 ## Screenshots
 
 ### Dashboard — Readiness Overview
-The dashboard shows your overall readiness score, per-status counts, and a clickable category grid with progress bars.
+Overall readiness score, per-status counts, and a clickable category grid with per-category progress bars.
 
-![Dashboard](frontend/src/assets/hero.png)
+![Dashboard](docs/screenshots/dashboard.png)
+
+![Category Progress](docs/screenshots/dashboard-categories.png)
 
 ### Controls Catalog
-Browse all criteria for a category. Cards show status icons and quick-navigate to the criterion detail view.
+Browse all criteria for a category. Each card shows status, criterion ID, name, and control count.
 
-### Criterion Detail
-Per-criterion view with the full list of points of focus, a status selector, notes textarea, and evidence file management.
+![Controls List](docs/screenshots/controls-list.png)
+
+### Criterion Detail — Points of Focus & Status
+Per-criterion view with all points of focus, a status dropdown, Save button, and a shortcut to ask the AI about it.
+
+![Criterion Detail](docs/screenshots/criterion-detail.png)
+
+### Criterion Detail — Notes & Evidence
+Implementation notes textarea and a drag-and-drop evidence uploader (PDF, PNG, DOCX, XLSX, TXT — up to 10 MB each).
+
+![Evidence Upload](docs/screenshots/criterion-evidence.png)
 
 ### AI Compliance Consultant
-Chat with an AI consultant that's aware of your current status across all 61 criteria. Ask questions like "What evidence do I need for CC6.1?" or "Which categories have the most gaps?".
+Streaming chat powered by Claude. Aware of your current status across all 61 criteria — ask anything from implementation guidance to evidence checklists.
+
+![AI Consultant](docs/screenshots/chat.png)
+
+### Authentication
+Clean login and registration screens scoped per user.
+
+| Login | Register |
+|---|---|
+| ![Login](docs/screenshots/login.png) | ![Register](docs/screenshots/register.png) |
 
 ---
 
